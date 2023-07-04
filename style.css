@@ -1,0 +1,90 @@
+html{
+    font-family: 'Inter', sans-serif;
+    background-color: #212121;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100vh;
+}
+
+.heading{
+    font-size: 36px;
+    padding:45px 62px 0px 62px;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:30px 60px;
+    gap: 60px;
+    row-gap: 30px;
+}
+
+
+.add-student input{
+    background-color: #212121;
+    color: white;
+    border: solid 1px white;
+    font-size: 18px;
+    width: 30%;
+    height: 50px;
+}
+
+#add-button{
+    background-color: white;
+    color: #212121;
+    width: 40%;
+}
+
+form .edit-button{
+    background-color: #212121;
+    color: white;
+    width: 40%;
+    border: solid 1px white;
+}
+
+
+.search-bar input{
+    background-color: #212121;
+    color: white;
+    border: solid 1px white;
+    font-size: 18px;
+    width: 100%;
+    height: 50px;
+}
+
+table{
+    margin-left: 60px;
+    width: 92%;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table .top{
+    padding: 15px 15px;
+    border: 1px solid white;
+}
+
+table #grade-cell{
+    display: flex;
+}
+
+table #edit, table #delete{
+    margin-left: auto;
+}
+
+table #edit:hover, table #delete:hover{
+    cursor: pointer;
+}
+
+.space{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding :15px 15px;
+}
+

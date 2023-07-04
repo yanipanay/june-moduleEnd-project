@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management CRUD</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        Student Management CRUD
+    </div>
+
+    <div class="add-student">
+        <form id="input-form" class="input-form">
+            <input required type="text" id="name" placeholder="Name">
+            <input required type="email" id="email" placeholder="Email">
+            <input required type="text" id="GPA" placeholder="Grade">
+            <input required type="age" id="age" placeholder="Age">
+            <input required type="text" id="degree" placeholder="Degree">
+            <input required type="submit" id="add-button" value="Add Student">
+        </form>
+    </div>
+    <div class="search-bar">
+        <form action="" method="get">
+            <input type="text" id="search-bar" placeholder="Search By Name,email or degree">
+        </form>
+    </div>
+    <div class="student-table">
+        <table id="stud-table">
+        <thead>
+            <tr>
+                <td class="top">
+                    ID
+                </td>
+                <td class="top">
+                    Student Name
+                </td>
+                <td class="top">
+                    Email
+                </td>
+                <td class="top">
+                    Age
+                </td>
+                <td class="top">
+                    Grade
+                </td>
+                <td class="top">
+                    Degree
+                </td>
+            </tr>
+        </thead>
+        <tbody id="form-body">
+            <tr>
+                <td class="space"></td>
+                <td class="space"></td>
+                <td class="space"></td>
+                <td class="space"></td>
+                <td class="space"></td>
+                <td class="space"></td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <script src="./backend.js"></script>
+</body>
+</html>
